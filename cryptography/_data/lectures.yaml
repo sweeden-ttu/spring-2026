@@ -1,0 +1,24 @@
+# Lecture Data - Cryptography (CS-6343)
+# This file is updated automatically by agents downloading Canvas materials
+# Each lecture entry contains metadata, file paths, and status
+
+lectures:
+  - lecture_number: 1
+    date: "2026-01-15"
+    title: "Introduction to Cryptography"
+    status: "planned"
+    module_id: null
+    module_name: ""
+    topics:
+      - "Historical overview"
+      - "Basic terminology"
+      - "Security goals"
+    files: []
+    video:
+      available: false
+      url: ""
+      local_path: ""
+    transcript:
+      available: false
+      local_path: ""
+    notes: []

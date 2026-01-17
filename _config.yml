@@ -1,0 +1,64 @@
+# Jekyll Configuration for Spring 2026 Coursework
+title: "Spring 2026 Coursework"
+description: "Course materials and lecture notes for Spring 2026 courses"
+url: "http://localhost:4000"
+baseurl: ""
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+timezone: America/Chicago
+
+# Collections
+collections:
+  courses:
+    output: true
+    permalink: /courses/:name/
+
+# Data Sources
+# Jekyll will read from _data directories in each course folder
+data_dir: ""
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: courses
+    values:
+      layout: course
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - "*.py"
+  - "*.json"
+  - "*.md"  # Exclude markdown files in root, only process in _courses
+
+# Include
+include:
+  - _pages
+
+# Kramdown Settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+    css_class: 'highlight'

@@ -1,0 +1,96 @@
+course:
+  name: "Software Verification and Validation"
+  code: "CS-5374"
+  semester: "Spring 2026"
+  canvas_id: 70713
+  start_date: "2026-01-14"
+  end_date: "2026-05-15"
+  time_zone: "America/Chicago"
+  syllabus_url: "https://texastech.instructure.com/courses/70713/assignments/syllabus"
+  canvas_url: "https://texastech.instructure.com/courses/70713"
+  media_site_url: "https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026"
+
+instructors:
+  - name: "Akbar Siami Namin"
+    title: "Professor"
+    email: null  # Check TTU directory
+    role: "Primary Instructor"
+    faculty_page: "https://www.depts.ttu.edu/cs/faculty/akbar_siami-namin/index.php"
+    education:
+      - "Ph.D., Computer Science, University of Western Ontario"
+      - "M.S., Lakehead University at University of Western Ontario"
+    research_interests:
+      - "Natural Language Processing"
+      - "Software & Cyber Security"
+      - "Machine Learning"
+      - "Program Analysis & Software Testing"
+      - "Modeling Human Factors"
+      - "Sequence and Time Series Analysis"
+    research_labs:
+      - "AVESTA (Advanced Empirical Software Testing and Analysis) - Lab Director"
+      - "Center for the Science & Engineering of Cyber Security (CSECS) - Member"
+    notable_work: "Leads AVESTA research group focused on empirical software engineering and program analysis"
+  - name: "Hasan Al-Qudah"
+    title: null  # Not found in public faculty directory
+    email: null
+    role: "Co-Instructor"
+    faculty_page: null
+    education: []
+    research_interests: []
+    research_labs: []
+    notes: "May be graduate student, visiting faculty, or adjunct instructor"
+
+lectures:
+  - number: 1
+    date: "2026-01-15"
+    title: "Introduction to Software Testing"
+    topics:
+      - "Testing fundamentals"
+      - "Testing strategies"
+    status: "completed"
+    video_url: ""
+    transcript_path: ""
+    notes_path: "_lectures/2026-01-15/notes/Introduction to Testing.pdf"
+    markdown_path: ""
+    latex_path: ""
+    module_id: 811245
+    module_name: "Lecture Notes : Software Testing"
+  
+  - number: 2
+    date: "2026-01-19"
+    title: "TBD"
+    topics: []
+    status: "planned"
+    video_url: ""
+    transcript_path: ""
+    notes_path: ""
+    markdown_path: ""
+    latex_path: ""
+    module_id: null
+    module_name: ""
+  
+  - number: 3
+    date: "2026-01-21"
+    title: "TBD"
+    topics: []
+    status: "planned"
+    video_url: ""
+    transcript_path: ""
+    notes_path: ""
+    markdown_path: ""
+    latex_path: ""
+    module_id: null
+    module_name: ""
+  
+  - number: 4
+    date: "2026-01-23"
+    title: "TBD"
+    topics: []
+    status: "planned"
+    video_url: ""
+    transcript_path: ""
+    notes_path: ""
+    markdown_path: ""
+    latex_path: ""
+    module_id: null
+    module_name: ""

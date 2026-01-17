@@ -1,0 +1,52 @@
+course:
+  name: "Cryptography"
+  code: "CS-6343"
+  semester: "Spring 2026"
+  canvas_id: 70714
+  start_date: "2026-01-14"
+  end_date: "2026-05-15"
+  time_zone: "America/Chicago"
+  syllabus_url: "https://texastech.instructure.com/courses/70714/assignments/syllabus"
+  canvas_url: "https://texastech.instructure.com/courses/70714"
+
+instructors:
+  - name: "TBD"
+    email: null
+    role: "Primary Instructor"
+
+lectures:
+  - number: 1
+    date: "2026-01-15"
+    title: "Introduction to Cryptography"
+    topics:
+      - "Historical overview"
+      - "Basic terminology"
+      - "Security goals"
+    status: "planned"
+    video_url: ""
+    transcript_path: ""
+    notes_path: ""
+    markdown_path: ""
+    latex_path: ""
+  
+  - number: 2
+    date: "2026-01-22"
+    title: "Number Theory Foundations"
+    topics: []
+    status: "planned"
+    video_url: ""
+    transcript_path: ""
+    notes_path: ""
+    markdown_path: ""
+    latex_path: ""
+  
+  - number: 3
+    date: "2026-01-29"
+    title: "Symmetric Encryption"
+    topics: []
+    status: "planned"
+    video_url: ""
+    transcript_path: ""
+    notes_path: ""
+    markdown_path: ""
+    latex_path: ""

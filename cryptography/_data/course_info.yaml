@@ -1,0 +1,41 @@
+# Course Information - Cryptography (CS-6343)
+# This file is the single source of truth for course links and metadata
+# Updated automatically by agents downloading Canvas materials
+
+course:
+  name: "Cryptography"
+  code: "CS-6343"
+  canvas_id: 70714
+  semester: "Spring 2026"
+  start_date: "2026-01-14"
+  end_date: "2026-05-15"
+  time_zone: "America/Chicago"
+
+# Course Links
+links:
+  canvas: "https://texastech.instructure.com/courses/70714"
+  syllabus: "https://texastech.instructure.com/courses/70714/assignments/syllabus"
+  media_site: null
+  calendar_ics: "https://texastech.instructure.com/feeds/calendars/course_tPfa5STeKYoJe9DlOXVO5CKezugv193nXP3IAfnI.ics"
+  landing_page: "/courses/cryptography/"
+
+# Instructors
+instructors:
+  - name: "TBD"
+    role: "Primary Instructor"
+    faculty_page: null
+
+# Course Description
+description: "Advanced study of cryptographic systems, security protocols, and modern encryption techniques including symmetric/asymmetric encryption, hash functions, digital signatures, and public key cryptography."
+
+# Topics
+topics:
+  - "Historical overview"
+  - "Basic terminology"
+  - "Security goals"
+  - "Number theory foundations"
+  - "Symmetric encryption"
+  - "Public key encryption (RSA, Diffie-Hellman)"
+  - "Hash functions and digital signatures"
+  - "Attack models and security goals"
+  - "Block ciphers and modes of operation"

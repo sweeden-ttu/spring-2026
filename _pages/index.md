@@ -1,0 +1,35 @@
+---
+layout: default
+title: Spring 2026 Coursework
+permalink: /
+---
+
+# Spring 2026 Coursework
+
+Welcome to the Spring 2026 coursework directory. This site contains materials for all courses this semester.
+
+## Courses
+
+### Software Verification and Validation (CS-5374)
+
+- **Instructors**: Akbar Siami Namin, Ph.D. (Primary), Hasan Al-Qudah (Co-Instructor)
+- **Canvas**: [View on Canvas](https://texastech.instructure.com/courses/70713)
+- **Media Site**: [Mediasite Channel](https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026)
+- **Course Page**: [software-verification/README.md]({{ '/software-verification/README.md' | relative_url }})
+
+### Cryptography (CS-6343)
+
+- **Canvas**: [View on Canvas](https://texastech.instructure.com/courses/70714)
+- **Course Page**: [cryptography/README.md]({{ '/cryptography/README.md' | relative_url }})
+
+## Data Structure
+
+All course data is stored in YAML files within each course's `_data/` directory:
+
+- `course_info.yaml` - Course links, instructor info, schedule
+- `lectures.yaml` - Lecture metadata, file paths, status
+
+## Quick Links
+
+- [Master Courses YAML]({{ '/master_courses.yaml' | relative_url }})
+- [Structure Summary]({{ '/STRUCTURE_SUMMARY.md' | relative_url }})

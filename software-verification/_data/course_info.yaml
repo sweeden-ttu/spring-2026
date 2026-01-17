@@ -1,0 +1,44 @@
+# Course Information - Software Verification and Validation (CS-5374)
+# This file is the single source of truth for course links and metadata
+# Updated automatically by agents downloading Canvas materials
+
+course:
+  name: "Software Verification and Validation"
+  code: "CS-5374"
+  canvas_id: 70713
+  semester: "Spring 2026"
+  start_date: "2026-01-14"
+  end_date: "2026-05-15"
+  time_zone: "America/Chicago"
+
+# Course Links
+links:
+  canvas: "https://texastech.instructure.com/courses/70713"
+  syllabus: "https://texastech.instructure.com/courses/70713/assignments/syllabus"
+  media_site: "https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026"
+  calendar_ics: "https://texastech.instructure.com/feeds/calendars/course_StkXgOD3d2Rw2tv46ad0H4DyetiapkEA4bz1rUd1.ics"
+  landing_page: "/courses/software-verification/"
+
+# Instructors
+instructors:
+  - name: "Akbar Siami Namin"
+    role: "Primary Instructor"
+    faculty_page: "/faculty/akbar-siami-namin/"
+  - name: "Hasan Al-Qudah"
+    role: "Co-Instructor"
+    faculty_page: "/faculty/hasan-al-qudah/"
+
+# Course Description
+description: "Methods and techniques for verifying and validating software systems, including testing strategies, formal methods, model checking, specification analysis, and continuous verification."
+
+# Topics
+topics:
+  - "Software testing fundamentals"
+  - "Testing strategies"
+  - "LangSmith setup and hands-on experiences"
+  - "Open source tools for testing/debugging AI/LLM/RL"
+  - "Formal methods and model checking"
+  - "Specification and requirements analysis"
+  - "Continuous verification"
+  - "Integration testing"
+  - "Unit testing strategies"

@@ -1,0 +1,198 @@
+# Master Courses Configuration for Spring 2026
+# ==============================================
+# This file contains course metadata, instructor information, schedules,
+# and links to Canvas, syllabus, and media resources.
+# Generated from Canvas LMS MCP data.
+
+courses:
+  - course_slug: cryptography
+    course_name: "Cryptography"
+    course_number: "CS-6343"
+    canvas_id: 70714
+    enrollment_term_id: 140
+    semester: "Spring 2026"
+    status: active
+    start_date: "2026-01-14"
+    end_date: "2026-05-15"
+    time_zone: "America/Chicago"
+    
+    # Instructor information (to be filled from Canvas)
+    instructors:
+      - name: "TBD"
+        email: null
+        role: "Primary Instructor"
+        google_scholar: null
+        linkedin: null
+        ieee: null
+        research_interests: []
+    
+    # Course links
+    syllabus_url: "https://texastech.instructure.com/courses/70714/assignments/syllabus"
+    canvas_url: "https://texastech.instructure.com/courses/70714"
+    media_site_url: null
+    calendar_ics: "https://texastech.instructure.com/feeds/calendars/course_tPfa5STeKYoJe9DlOXVO5CKezugv193nXP3IAfnI.ics"
+    
+    # Landing pages
+    landing_pages:
+      course_page: "/courses/cryptography/"
+      media_links: "/courses/cryptography/media"
+      canvas_instructure: "https://texastech.instructure.com/courses/70714"
+    
+    # Lecture schedule (stubbed - to be filled from modules/syllabus)
+    schedule:
+      lectures:
+        - lecture_number: 1
+          date: "2026-01-15"
+          title: "Introduction to Cryptography"
+          status: "planned"
+          topics:
+            - "Historical overview"
+            - "Basic terminology"
+            - "Security goals"
+          notes_path: null
+          slides_path: null
+          transcript_path: null
+          video_path: null
+        - lecture_number: 2
+          date: "2026-01-22"
+          title: "Number Theory Foundations"
+          status: "planned"
+          topics: []
+          notes_path: null
+          slides_path: null
+          transcript_path: null
+          video_path: null
+        - lecture_number: 3
+          date: "2026-01-29"
+          title: "Symmetric Encryption"
+          status: "planned"
+          topics: []
+          notes_path: null
+          slides_path: null
+          transcript_path: null
+          video_path: null
+        # Additional lectures to be added from Canvas modules
+    
+    # Course description
+    description: "Advanced study of cryptographic systems, security protocols, and modern encryption techniques including symmetric/asymmetric encryption, hash functions, digital signatures, and public key cryptography."
+    
+    # Tags for organization
+    tags:
+      - cryptography
+      - security
+      - encryption
+      - spring-2026
+
+  - course_slug: software-verification
+    course_name: "Software Verification and Validation"
+    course_number: "CS-5374"
+    canvas_id: 70713
+    enrollment_term_id: 140
+    semester: "Spring 2026"
+    status: active
+    start_date: "2026-01-14"
+    end_date: "2026-05-15"
+    time_zone: "America/Chicago"
+    
+    # Instructor information (from Canvas data and TTU CS Faculty Directory)
+    instructors:
+      - name: "Akbar Siami Namin"
+        title: "Professor"
+        email: null  # Check TTU directory
+        role: "Primary Instructor"
+        faculty_page: "https://www.depts.ttu.edu/cs/faculty/akbar_siami-namin/index.php"
+        google_scholar: null  # To be researched
+        linkedin: null  # To be researched
+        ieee: null  # To be researched
+        education:
+          - "Ph.D., Computer Science, University of Western Ontario"
+          - "M.S., Lakehead University at University of Western Ontario"
+        research_interests:
+          - "Natural Language Processing"
+          - "Software & Cyber Security"
+          - "Machine Learning"
+          - "Program Analysis & Software Testing"
+          - "Modeling Human Factors"
+          - "Sequence and Time Series Analysis"
+        research_labs:
+          - "AVESTA (Advanced Empirical Software Testing and Analysis) - Lab Director"
+          - "Center for the Science & Engineering of Cyber Security (CSECS) - Member"
+        notable_work: "Leads AVESTA research group focused on empirical software engineering and program analysis"
+      - name: "Hasan Al-Qudah"
+        title: null  # To be determined
+        email: null  # Check TTU directory
+        role: "Co-Instructor"
+        faculty_page: null  # Not found in public directory
+        google_scholar: null  # To be researched
+        linkedin: null  # To be researched
+        ieee: null  # To be researched
+        education: []
+        research_interests: []
+        research_labs: []
+        notable_work: null
+    
+    # Course links
+    syllabus_url: "https://texastech.instructure.com/courses/70713/assignments/syllabus"
+    canvas_url: "https://texastech.instructure.com/courses/70713"
+    media_site_url: "https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026"
+    calendar_ics: "https://texastech.instructure.com/feeds/calendars/course_StkXgOD3d2Rw2tv46ad0H4DyetiapkEA4bz1rUd1.ics"
+    
+    # Landing pages
+    landing_pages:
+      course_page: "/courses/software-verification/"
+      media_links: "/courses/software-verification/media"
+      canvas_instructure: "https://texastech.instructure.com/courses/70713"
+    
+    # Lecture schedule (from Canvas modules)
+    schedule:
+      lectures:
+        - lecture_number: 1
+          date: "2026-01-14"
+          title: "Introduction to Software Testing"
+          status: "completed"
+          topics:
+            - "Testing fundamentals"
+            - "Testing strategies"
+          notes_path: null
+          slides_path: "Spring2026/software-verification/_lectures/lecture-01/notes/Introduction to Testing.pdf"
+          transcript_path: null
+          video_path: null
+          module_id: 811245
+          module_name: "Lecture Notes : Software Testing"
+        - lecture_number: 2
+          date: "2026-01-21"
+          title: "LangSmith Setup and Tutorial"
+          status: "completed"
+          topics:
+            - "LangSmith setup"
+            - "Hands-on experiences"
+          notes_path: null
+          slides_path: "Spring2026/software-verification/_lectures/lecture-02/notes/v0.1_LangSmith_Setup_Instructions-v1.pdf"
+          transcript_path: null
+          video_path: null
+          module_id: 811248
+          module_name: "LangSmith Tutorial + Hands-On Experiences"
+        - lecture_number: 3
+          date: "2026-01-28"
+          title: "OpenSource Tools for Testing/Debugging AI/LLM/RL"
+          status: "planned"
+          topics:
+            - "Open source testing tools"
+            - "AI/LLM/RL debugging"
+          notes_path: null
+          slides_path: "Spring2026/software-verification/_lectures/lecture-03/notes/Collection_of_frameworks_tools_projects.pdf"
+          transcript_path: null
+          video_path: null
+          module_id: 813151
+          module_name: "OpenSource Tools for Testing/Debugging AI/LLM/RL"
+        # Additional lectures to be added from Canvas modules
+    
+    # Course description
+    description: "Methods and techniques for verifying and validating software systems, including testing strategies, formal methods, model checking, specification analysis, and continuous verification."
+    
+    # Tags for organization
+    tags:
+      - software-verification
+      - testing
+      - formal-methods
+      - spring-2026

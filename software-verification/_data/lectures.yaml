@@ -1,0 +1,83 @@
+# Lecture Data - Software Verification and Validation (CS-5374)
+# This file is updated automatically by agents downloading Canvas materials
+# Each lecture entry contains metadata, file paths, and status
+
+lectures:
+  - lecture_number: 1
+    date: "2026-01-15"
+    title: "Introduction to Software Testing"
+    status: "completed"
+    module_id: 811245
+    module_name: "Lecture Notes : Software Testing"
+    topics:
+      - "Testing fundamentals"
+      - "Testing strategies"
+    files:
+      - filename: "Introduction to Testing.pdf"
+        file_id: 11826183
+        type: "notes"
+        local_path: "_lectures/2026-01-15/notes/Introduction to Testing.pdf"
+        canvas_url: "https://texastech.instructure.com/courses/70713/files/11826183"
+        downloaded: false
+    video:
+      available: false
+      url: ""
+      local_path: ""
+    transcript:
+      available: false
+      local_path: ""
+    notes:
+      - path: "_lectures/2026-01-15/notes/Introduction to Testing.pdf"
+        type: "slides"
+        extracted: false
+
+  - lecture_number: 2
+    date: "2026-01-19"
+    title: "TBD"
+    status: "planned"
+    module_id: null
+    module_name: ""
+    topics: []
+    files: []
+    video:
+      available: false
+      url: ""
+      local_path: ""
+    transcript:
+      available: false
+      local_path: ""
+    notes: []
+
+  - lecture_number: 3
+    date: "2026-01-21"
+    title: "TBD"
+    status: "planned"
+    module_id: null
+    module_name: ""
+    topics: []
+    files: []
+    video:
+      available: false
+      url: ""
+      local_path: ""
+    transcript:
+      available: false
+      local_path: ""
+    notes: []
+
+  - lecture_number: 4
+    date: "2026-01-23"
+    title: "TBD"
+    status: "planned"
+    module_id: null
+    module_name: ""
+    topics: []
+    files: []
+    video:
+      available: false
+      url: ""
+      local_path: ""
+    transcript:
+      available: false
+      local_path: ""
+    notes: []

@@ -1,0 +1,60 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+vendor/
+.bundle/
+*.gem
+*.gemfile.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Downloaded files (large files should not be committed)
+# Keep folder structure but ignore actual files
+_lectures/*/video/*
+_lectures/*/transcript/*
+_lectures/*/canvas/*
+_lectures/*/notes/*.pdf
+_lectures/*/notes/*.pptx
+_lectures/*/notes/*.ppt
+
+# But keep the directory structure
+!_lectures/
+!_lectures/**/
+!*.md
+!*.yaml
+!*.yml
