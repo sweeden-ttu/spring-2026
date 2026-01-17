@@ -16,8 +16,7 @@ Spring2026/
 ├── Gemfile                    # Ruby dependencies
 ├── master_courses.yaml        # Master course configuration
 ├── software-verification/     # CS-5374 course materials
-│   ├── README.md             # Course overview
-│   ├── syllabus.yaml         # Course schedule
+│   ├── README.md             # Course overviewf
 │   ├── _data/                # YAML data files
 │   └── _lectures/            # Organized by date
 └── cryptography/              # CS-6343 course materials
@@ -27,15 +26,13 @@ Spring2026/
     └── _lectures/
 ```
 
-## Setup
-
-### Prerequisites
+## Setupf### Prerequisites
 
 - Ruby 3.2.0+ (see `.ruby-version`)
 - Bundler
 
 ### Installation
-
+f
 ```bash
 # Install dependencies
 bundle install
@@ -52,12 +49,10 @@ The site will be available at `http://localhost:4000`
 ## Data-Driven Architecture
 
 All course information is stored in YAML files:
-
-- `{course}/_data/course_info.yaml` - Course links and metadata
+f- `{course}/_data/course_info.yaml` - Course links and metadata
 - `{course}/_data/lectures.yaml` - Lecture schedule and file paths
 
-These files are updated automatically by agents downloading Canvas materials.
-
+f
 ## License
 
-This repository contains course materials for personal academic use.
+This repository contains cf

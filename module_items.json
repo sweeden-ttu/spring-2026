@@ -1,0 +1,110 @@
+{
+  "811209": [
+    {
+      "id": 3989534,
+      "position": 1,
+      "title": "My Mediasite Quick Steps 25-26.pdf",
+      "indent": 0,
+      "quiz_lti": false,
+      "type": "File",
+      "module_id": 811209,
+      "html_url": "https://texastech.instructure.com/courses/70713/modules/items/3989534",
+      "content_id": 11825572,
+      "url": "https://texastech.instructure.com/api/v1/courses/70713/files/11825572"
+    },
+    {
+      "id": 3989541,
+      "position": 2,
+      "title": "Video Channel",
+      "indent": 0,
+      "quiz_lti": false,
+      "type": "ExternalUrl",
+      "module_id": 811209,
+      "html_url": "https://texastech.instructure.com/api/v1/courses/70713/module_item_redirect/3989541",
+      "external_url": "https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026",
+      "new_tab": false
+    }
+  ],
+  "811217": [
+    {
+      "id": 3989592,
+      "position": 1,
+      "title": "CS5374-SoftwareVerificationandValidation-TTU-CS-Spring2026.pdf",
+      "indent": 0,
+      "quiz_lti": false,
+      "type": "File",
+      "module_id": 811217,
+      "html_url": "https://texastech.instructure.com/courses/70713/modules/items/3989592",
+      "content_id": 11825867,
+      "url": "https://texastech.instructure.com/api/v1/courses/70713/files/11825867"
+    }
+  ],
+  "811245": [
+    {
+      "id": 3989740,
+      "position": 4,
+      "title": "Introduction to Testing.pdf",
+      "indent": 0,
+      "quiz_lti": false,
+      "type": "File",
+      "module_id": 811245,
+      "html_url": "https://texastech.instructure.com/courses/70713/modules/items/3989740",
+      "content_id": 11826183,
+      "url": "https://texastech.instructure.com/api/v1/courses/70713/files/11826183"
+    }
+  ],
+  "811248": [
+    {
+      "id": 3989779,
+      "position": 1,
+      "title": "v0.1_LangSmith_Setup_Instructions-v1.pdf",
+      "indent": 0,
+      "quiz_lti": false,
+      "type": "File",
+      "module_id": 811248,
+      "html_url": "https://texastech.instructure.com/courses/70713/modules/items/3989779",
+      "content_id": 11826243,
+      "url": "https://texastech.instructure.com/api/v1/courses/70713/files/11826243"
+    }
+  ],
+  "811331": [
+    {
+      "id": 3990260,
+      "position": 1,
+      "title": "v0.1_LangSmith_Setup_Instructions-v1.pdf",
+      "indent": 0,
+      "quiz_lti": false,
+      "type": "File",
+      "module_id": 811331,
+      "html_url": "https://texastech.instructure.com/courses/70713/modules/items/3990260",
+      "content_id": 11826243,
+      "url": "https://texastech.instructure.com/api/v1/courses/70713/files/11826243"
+    },
+    {
+      "id": 3990261,
+      "position": 2,
+      "title": "langsmith.zip",
+      "indent": 0,
+      "quiz_lti": false,
+      "type": "File",
+      "module_id": 811331,
+      "html_url": "https://texastech.instructure.com/courses/70713/modules/items/3990261",
+      "content_id": 11827164,
+      "url": "https://texastech.instructure.com/api/v1/courses/70713/files/11827164"
+    }
+  ],
+  "813151": [
+    {
+      "id": 3998930,
+      "position": 1,
+      "title": "Collection_of_frameworks_tools_projects.pdf",
+      "indent": 0,
+      "quiz_lti": false,
+      "type": "File",
+      "module_id": 813151,
+      "html_url": "https://texastech.instructure.com/courses/70713/modules/items/3998930",
+      "content_id": 11855957,
+      "url": "https://texastech.instructure.com/api/v1/courses/70713/files/11855957"
+    }
+  ]
+}

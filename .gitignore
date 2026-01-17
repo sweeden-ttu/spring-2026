@@ -45,7 +45,7 @@ Thumbs.db
 
 # Downloaded files (large files should not be committed)
 # Keep folder structure but ignore actual files
-_lectures/*/video/*
+_lectures/*/video/*f
 _lectures/*/transcript/*
 _lectures/*/canvas/*
 _lectures/*/notes/*.pdf
