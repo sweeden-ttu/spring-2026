@@ -26,13 +26,13 @@ Spring2026/
     └── _lectures/
 ```
 
-## Setupf### Prerequisites
+## Setup Prerequisites
 
 - Ruby 3.2.0+ (see `.ruby-version`)
 - Bundler
 
 ### Installation
-f
+
 ```bash
 # Install dependencies
 bundle install
