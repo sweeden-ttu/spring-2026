@@ -4,11 +4,25 @@ description: "Course materials and lecture notes for Spring 2026 courses"
 url: "http://localhost:4000"
 baseurl: ""
 
+# Theme Configuration - Using jekyll-text-theme (local gem)
+theme: jekyll-text-theme
+
+# Theme Customization
+text_skin: default          # Options: default, dark, forest, ocean, chocolate, orange
+highlight_theme: tomorrow   # Code highlighting theme (tomorrow, tomorrow-night, etc.)
+
+# Localization
+lang: en
+timezone: America/Chicago
+
 # Build Settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-timezone: America/Chicago
+
+# Pagination (for posts/lectures listing)
+paginate: 10
+paginate_path: "/page:num"
 
 # Collections
 collections:
@@ -20,24 +34,37 @@ collections:
 # Jekyll will read from _data directories in each course folder
 data_dir: ""
 
-# Defaults
+# Front Matter Defaults
 defaults:
+  # Default for posts (if using _posts directory)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      share: false
+  
+  # Default for pages in _pages directory
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  
+  # Default for courses collection
   - scope:
       path: ""
       type: courses
     values:
       layout: course
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
 
 # Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing
 exclude:
@@ -48,7 +75,7 @@ exclude:
   - .git
   - "*.py"
   - "*.json"
-  - "*.md"  # Exclude markdown files in root, only process in _courses
+  # Note: index.html is in root, _pages/index.md kept for reference
 
 # Include
 include:
@@ -62,3 +89,15 @@ kramdown:
     block:
       line_numbers: false
     css_class: 'highlight'
+
+# Theme Features (TeXt theme specific)
+mathjax: true              # Enable MathJax for mathematical notation
+mermaid: true              # Enable Mermaid diagrams
+chart: true                # Enable chart support
+
+# Navigation (can be customized via theme)
+nav_lists:
+  - title: Home
+    url: /
+  - title: Courses
+    url: /courses/

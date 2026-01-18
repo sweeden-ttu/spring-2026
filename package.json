@@ -1,0 +1,15 @@
+{
+  "name": "spring-2026-coursework",
+  "version": "1.0.0",
+  "description": "Jekyll site with Playwright tests",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "playwright:install": "playwright install --with-deps chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}

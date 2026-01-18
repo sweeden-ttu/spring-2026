@@ -1,0 +1,63 @@
+name: Jekyll Site Tests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
+        bundler-cache: true
+        
+    - name: Install Jekyll dependencies
+      run: |
+        bundle config path vendor/bundle
+        bundle install
+        
+    - name: Build Jekyll site
+      run: bundle exec jekyll build
+      
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        
+    - name: Install npm dependencies
+      run: npm ci
+      
+    - name: Install Playwright browsers
+      run: npx playwright install --with-deps chromium
+      
+    - name: Build site and start server
+      run: |
+        bundle exec jekyll build
+        bundle exec jekyll serve --host 0.0.0.0 --port 4000 &
+        sleep 5
+      env:
+        BASE_URL: http://localhost:4000
+        
+    - name: Run Playwright tests
+      run: npm test
+      env:
+        BASE_URL: http://localhost:4000
+        CI: true
+        
+    - name: Upload test results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: playwright-report
+        path: playwright-report/
+        retention-days: 30
