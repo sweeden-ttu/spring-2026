@@ -1,35 +1,142 @@
 ---
-layout: home
+layout: landing
 title: Spring 2026 Coursework
-permalink: /
+excerpt: >
+  Course materials and lecture notes for Software Verification and Validation (CS-5374) 
+  and Cryptography (CS-6343) at Texas Tech University.
+permalink: /index.html
+
+article_header:
+  actions:
+    - text: <i class="fas fa-graduation-cap"></i> View Courses
+      type: error
+      url: /courses/
+    - text: <i class="fas fa-book"></i> Software Verification
+      type: outline-theme-dark
+      url: /software-verification/introduction/
+    - text: <i class="fas fa-shield-alt"></i> LangSmith Setup
+      type: outline-theme-dark
+      url: /software-verification/topics/langsmith-setup/
+  height: 100vh
+  theme: dark
+  background_color: "#1a1a2e"
+  background_image:
+    gradient: "linear-gradient(rgba(0, 0, 0, .3), rgba(26, 26, 46, .8))"
+
+data:
+  sections:
+    # Course Cards Section
+    - title: Our Courses
+      excerpt: Explore graduate-level courses in software engineering and computer science
+      theme: light
+      children:
+        - title: <i class="fas fa-check-circle"></i> Software Verification & Validation
+          excerpt: CS-5374 - Methods and techniques for verifying and validating software systems
+          actions:
+            - text: Course Introduction
+              url: /software-verification/introduction/
+            - text: View Topics
+              url: /software-verification/introduction/
+          image:
+            src: /assets/images/course-verification.svg
+            style: "max-width: 300px; max-height: 200px"
+            is_row: true
+        - title: <i class="fas fa-lock"></i> Cryptography
+          excerpt: CS-6343 - Cryptographic methods and security protocols
+          actions:
+            - text: Course Materials
+              url: /cryptography/README
+            - text: Canvas
+              url: https://texastech.instructure.com/courses/70714
+          image:
+            src: /assets/images/course-cryptography.svg
+            style: "max-width: 300px; max-height: 200px"
+            is_row: true
+
+    # Recent Updates Section
+    - title: Recent Updates
+      excerpt: Latest announcements, lecture notes, and course materials
+      theme: dark
+      background_color: "#16213e"
+      children:
+        - title: <i class="fas fa-calendar"></i> Spring 2026 Semester Started
+          excerpt: Welcome to Spring 2026 coursework! New materials and resources are now available.
+          actions:
+            - text: View Welcome Post
+              url: /posts/2026-01-14-welcome-to-spring-2026/
+        - title: <i class="fas fa-tools"></i> LangSmith Setup Available
+          excerpt: Complete setup instructions for LangSmith are now available for CS-5374 students.
+          actions:
+            - text: Setup Guide
+              url: /software-verification/topics/langsmith-setup/
+        - title: <i class="fas fa-video"></i> Lecture Videos Available
+          excerpt: Recorded lectures are available on Mediasite for enrolled students.
+          actions:
+            - text: Mediasite Channel
+              url: https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026
+
+    # Resources and Links Section
+    - title: External Resources
+      excerpt: Quick access to course platforms, tools, and learning resources
+      theme: light
+      children:
+        - title: <i class="fas fa-chalkboard-teacher"></i> Canvas LMS
+          excerpt: Access assignments, grades, and course announcements
+          actions:
+            - text: CS-5374 Canvas
+              url: https://texastech.instructure.com/courses/70713
+            - text: CS-6343 Canvas
+              url: https://texastech.instructure.com/courses/70714
+        - title: <i class="fas fa-play-circle"></i> Mediasite Videos
+          excerpt: Watch recorded lectures and presentations
+          actions:
+            - text: View Channel
+              url: https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026
+        - title: <i class="fas fa-book-open"></i> Course Topics
+          excerpt: Browse detailed topics and lecture materials
+          actions:
+            - text: Software Verification Topics
+              url: /software-verification/introduction/
+            - text: All Topics
+              url: /software-verification/introduction/
+
+    # Tools and Software Section
+    - title: Tools & Software
+      excerpt: Essential tools for coursework and hands-on labs
+      theme: dark
+      background_color: "#0f3460"
+      children:
+        - title: <i class="fas fa-code"></i> LangSmith
+          excerpt: LLM testing and evaluation platform for CS-5374 labs
+          actions:
+            - text: Setup Instructions
+              url: /software-verification/topics/langsmith-setup/
+            - text: Hands-on Guide
+              url: /software-verification/topics/15-langsmith-hands-on/
+        - title: <i class="fas fa-laptop-code"></i> HPCC Resources
+          excerpt: Texas Tech High Performance Computing Center for advanced projects
+          actions:
+            - text: HPCC Guide
+              url: https://www.depts.ttu.edu/hpcc/userguides/general_guides/jupyter-notebooks.php
+        - title: <i class="fas fa-cloud"></i> Kaggle API
+          excerpt: Dataset management and competition tools
+          actions:
+            - text: Kaggle API Guide
+              url: /software-verification/topics/15-langsmith-hands-on/
+
+    # Quick Links Section
+    - title: Quick Navigation
+      excerpt: Navigate to key sections of the site
+      theme: light
+      actions:
+        - text: <i class="fas fa-home"></i> Home
+          url: /
+        - text: <i class="fas fa-list"></i> All Courses
+          url: /courses/
+        - text: <i class="fas fa-tags"></i> Topics
+          url: /software-verification/introduction/
+        - text: <i class="fas fa-archive"></i> Archive
+          url: /archive.html
+      background_color: "#e8f4f8"
+
 ---
-
-# Spring 2026 Coursework
-
-Welcome to the Spring 2026 coursework directory. This site contains materials for all courses this semester.
-
-## Courses
-
-### Software Verification and Validation (CS-5374)
-
-- **Instructors**: Akbar Siami Namin, Ph.D. (Primary), Hasan Al-Qudah (Co-Instructor)
-- **Canvas**: [View on Canvas](https://texastech.instructure.com/courses/70713)
-- **Media Site**: [Mediasite Channel](https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026)
-- **Course Page**: [software-verification/README.md]({{ '/software-verification/README.md' | relative_url }})
-
-### Cryptography (CS-6343)
-
-- **Canvas**: [View on Canvas](https://texastech.instructure.com/courses/70714)
-- **Course Page**: [cryptography/README.md]({{ '/cryptography/README.md' | relative_url }})
-
-## Data Structure
-
-All course data is stored in YAML files within each course's `_data/` directory:
-
-- `course_info.yaml` - Course links, instructor info, schedule
-- `lectures.yaml` - Lecture metadata, file paths, status
-
-## Quick Links
-
-- [Master Courses YAML]({{ '/master_courses.yaml' | relative_url }})
-- [Structure Summary]({{ '/STRUCTURE_SUMMARY.md' | relative_url }})

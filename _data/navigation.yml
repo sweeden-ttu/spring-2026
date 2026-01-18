@@ -12,8 +12,12 @@ header:
     url:        /software-verification/introduction/
   - title:      Courses
     url:        /courses/
-  - title:      Archive
-    url:        /archive.html
+  - title:      Canvas
+    url:        https://texastech.instructure.com/
+  - title:      Mediasite
+    url:        https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026
+  - title:      GitHub
+    url:        https://github.com
 
 # Sidebar Navigation for Software Verification Topics
 course-topics:
