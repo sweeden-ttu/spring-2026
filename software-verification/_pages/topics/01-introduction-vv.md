@@ -7,6 +7,8 @@ tags:
   - Validation
   - Fundamentals
 permalink: /software-verification/topics/01-introduction-vv/
+sidebar:
+  nav: cs-5374-sidebar
 ---
 
 This article introduces the fundamental concepts of software verification and validation (V&V), exploring the critical differences between these two essential processes in software engineering and their role in ensuring software quality.

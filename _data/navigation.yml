@@ -1,25 +1,99 @@
 # Navigation configuration for jekyll-TeXt-theme
-# See: https://github.com/sweeden-ttu/jekyll-TeXt-theme/blob/master/docs/_data/navigation.yml
+# Header Navigation: Top menu for courses and main sections
+# Sidebar Navigation: Left sidebar for lecture notes, projects, assignments
 
-# Header Navigation (main site navigation menu)
+# Header Navigation (Top Menu - Courses and Main Sections)
 header:
   - title:      Home
     url:        /
-  - title:      Software Verification
-    url:        /software-verification/introduction/
-    key:        software-verification
-  - title:      Topics
-    url:        /software-verification/introduction/
   - title:      Courses
     url:        /courses/
+    key:        courses
+  - title:      CS-5374
+    url:        /software-verification/introduction/
+    key:        cs-5374
+  - title:      CS-6343
+    url:        /cryptography/README
+    key:        cs-6343
   - title:      Canvas
     url:        https://texastech.instructure.com/
   - title:      Mediasite
     url:        https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026
-  - title:      GitHub
-    url:        https://github.com
 
-# Sidebar Navigation for Software Verification Topics
+# Sidebar Navigation for CS-5374: Software Verification & Validation
+# Used in pages with sidebar: { nav: cs-5374-sidebar }
+cs-5374-sidebar:
+  - title:      Course Overview
+    children:
+      - title:  Course Introduction
+        url:    /software-verification/introduction/
+      - title:  LangSmith Setup
+        url:    /software-verification/topics/langsmith-setup/
+  - title:      Lecture Notes
+    children:
+      - title:  Introduction to V&V
+        url:    /software-verification/topics/01-introduction-vv/
+      - title:  Adequacy Criterion
+        url:    /software-verification/topics/02-adequacy-criterion/
+      - title:  Black Box Testing
+        url:    /software-verification/topics/04-black-box-testing/
+      - title:  White Box Testing
+        url:    /software-verification/topics/05-white-box-testing/
+      - title:  Model-based Testing
+        url:    /software-verification/topics/06-model-based-testing/
+      - title:  Graph-based Testing
+        url:    /software-verification/topics/08-graph-based-testing/
+      - title:  Fault-based Testing
+        url:    /software-verification/topics/09-fault-based-testing/
+      - title:  Security Testing
+        url:    /software-verification/topics/10-security-testing/
+      - title:  Formal Verification
+        url:    /software-verification/topics/11-formal-verification/
+      - title:  Verification
+        url:    /software-verification/topics/12-verification/
+      - title:  Model Checking
+        url:    /software-verification/topics/13-model-checking/
+      - title:  AI/LLM/RL Evaluation
+        url:    /software-verification/topics/16-ai-llm-rl-evaluation/
+  - title:      Projects
+    children:
+      - title:  LangSmith Hands-on
+        url:    /software-verification/topics/15-langsmith-hands-on/
+      - title:  Project Assignments
+        url:    /software-verification/introduction/
+      - title:  Final Project
+        url:    /software-verification/introduction/
+  - title:      Assignments
+    children:
+      - title:  Assignment 1
+        url:    /software-verification/introduction/
+      - title:  Assignment 2
+        url:    /software-verification/introduction/
+      - title:  Assignment 3
+        url:    /software-verification/introduction/
+      - title:  Labs & Exercises
+        url:    /software-verification/introduction/
+  - title:      Student Presentations
+    children:
+      - title:  Presentation 1
+        url:    /software-verification/topics/03-student-presentation/
+      - title:  Presentation 2
+        url:    /software-verification/topics/07-student-presentation-2/
+      - title:  Presentation 3
+        url:    /software-verification/topics/14-student-presentation-3/
+  - title:      Resources
+    children:
+      - title:  Course Materials
+        url:    /software-verification/introduction/
+      - title:  Tools & Software
+        url:    /software-verification/introduction/
+      - title:  Additional Reading
+        url:    /software-verification/introduction/
+      - title:  External Links
+        url:    /software-verification/introduction/
+
+# Sidebar Navigation for Course Topics (Alternative structure)
+# Used for topic pages: sidebar: { nav: course-topics }
 course-topics:
   - title:      Course Overview
     children:

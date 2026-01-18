@@ -4,6 +4,8 @@ title: Introduction to CS-5374
 course: Software Verification and Validation
 course_number: CS-5374
 permalink: /software-verification/introduction/
+sidebar:
+  nav: cs-5374-sidebar
 ---
 
 # Introduction to Software Verification and Validation (CS-5374)
