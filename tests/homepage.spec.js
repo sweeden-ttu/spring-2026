@@ -9,9 +9,17 @@ test.describe('Homepage', () => {
     const title = await page.title();
     expect(title).toMatch(/Spring 2026/i);
     
-    // Check for main heading or content
+    // Check for main heading or content (check for h1 or main content area)
+    const h1 = page.locator('h1').first();
     const heading = page.getByRole('heading', { name: /Spring 2026/i }).first();
-    await expect(heading.or(page.locator('body'))).toBeVisible();
+    const mainContent = page.getByText(/Welcome to the Spring 2026/i);
+    
+    // At least one of these should be visible
+    const headingVisible = await heading.isVisible().catch(() => false);
+    const h1Visible = await h1.isVisible().catch(() => false);
+    const contentVisible = await mainContent.isVisible().catch(() => false);
+    
+    expect(headingVisible || h1Visible || contentVisible).toBeTruthy();
   });
 
   test('should have correct page structure', async ({ page }) => {
