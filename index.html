@@ -1,142 +1,136 @@
 ---
-layout: landing
+layout: page
 title: Spring 2026 Coursework
 excerpt: >
   Course materials and lecture notes for Software Verification and Validation (CS-5374) 
   and Cryptography (CS-6343) at Texas Tech University.
 permalink: /index.html
-
-article_header:
-  actions:
-    - text: <i class="fas fa-graduation-cap"></i> View Courses
-      type: error
-      url: /courses/
-    - text: <i class="fas fa-book"></i> Software Verification
-      type: outline-theme-dark
-      url: /software-verification/introduction/
-    - text: <i class="fas fa-shield-alt"></i> LangSmith Setup
-      type: outline-theme-dark
-      url: /software-verification/topics/langsmith-setup/
-  height: 100vh
-  theme: dark
-  background_color: "#E90802"
-  background_image:
-    gradient: "linear-gradient(rgba(233, 8, 2, 0.3), rgba(233, 8, 2, 0.7))"
-
-data:
-  sections:
-    # Course Cards Section
-    - title: Our Courses
-      excerpt: Explore graduate-level courses in software engineering and computer science
-      theme: light
-      children:
-        - title: <i class="fas fa-check-circle"></i> Software Verification & Validation
-          excerpt: CS-5374 - Methods and techniques for verifying and validating software systems
-          actions:
-            - text: Course Introduction
-              url: /software-verification/introduction/
-            - text: View Topics
-              url: /software-verification/introduction/
-          image:
-            src: /assets/images/course-verification.svg
-            style: "max-width: 300px; max-height: 200px"
-            is_row: true
-        - title: <i class="fas fa-lock"></i> Cryptography
-          excerpt: CS-6343 - Cryptographic methods and security protocols
-          actions:
-            - text: Course Materials
-              url: /cryptography/README
-            - text: Canvas
-              url: https://texastech.instructure.com/courses/70714
-          image:
-            src: /assets/images/course-cryptography.svg
-            style: "max-width: 300px; max-height: 200px"
-            is_row: true
-
-    # Recent Updates Section
-    - title: Recent Updates
-      excerpt: Latest announcements, lecture notes, and course materials
-      theme: light
-      background_color: "#F5F5F5"
-      children:
-        - title: <i class="fas fa-calendar"></i> Spring 2026 Semester Started
-          excerpt: Welcome to Spring 2026 coursework! New materials and resources are now available.
-          actions:
-            - text: View Welcome Post
-              url: /posts/2026-01-14-welcome-to-spring-2026/
-        - title: <i class="fas fa-tools"></i> LangSmith Setup Available
-          excerpt: Complete setup instructions for LangSmith are now available for CS-5374 students.
-          actions:
-            - text: Setup Guide
-              url: /software-verification/topics/langsmith-setup/
-        - title: <i class="fas fa-video"></i> Lecture Videos Available
-          excerpt: Recorded lectures are available on Mediasite for enrolled students.
-          actions:
-            - text: Mediasite Channel
-              url: https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026
-
-    # Resources and Links Section
-    - title: External Resources
-      excerpt: Quick access to course platforms, tools, and learning resources
-      theme: light
-      children:
-        - title: <i class="fas fa-chalkboard-teacher"></i> Canvas LMS
-          excerpt: Access assignments, grades, and course announcements
-          actions:
-            - text: CS-5374 Canvas
-              url: https://texastech.instructure.com/courses/70713
-            - text: CS-6343 Canvas
-              url: https://texastech.instructure.com/courses/70714
-        - title: <i class="fas fa-play-circle"></i> Mediasite Videos
-          excerpt: Watch recorded lectures and presentations
-          actions:
-            - text: View Channel
-              url: https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026
-        - title: <i class="fas fa-book-open"></i> Course Topics
-          excerpt: Browse detailed topics and lecture materials
-          actions:
-            - text: Software Verification Topics
-              url: /software-verification/introduction/
-            - text: All Topics
-              url: /software-verification/introduction/
-
-    # Tools and Software Section
-    - title: Tools & Software
-      excerpt: Essential tools for coursework and hands-on labs
-      theme: light
-      background_color: "#FFFFFF"
-      children:
-        - title: <i class="fas fa-code"></i> LangSmith
-          excerpt: LLM testing and evaluation platform for CS-5374 labs
-          actions:
-            - text: Setup Instructions
-              url: /software-verification/topics/langsmith-setup/
-            - text: Hands-on Guide
-              url: /software-verification/topics/15-langsmith-hands-on/
-        - title: <i class="fas fa-laptop-code"></i> HPCC Resources
-          excerpt: Texas Tech High Performance Computing Center for advanced projects
-          actions:
-            - text: HPCC Guide
-              url: https://www.depts.ttu.edu/hpcc/userguides/general_guides/jupyter-notebooks.php
-        - title: <i class="fas fa-cloud"></i> Kaggle API
-          excerpt: Dataset management and competition tools
-          actions:
-            - text: Kaggle API Guide
-              url: /software-verification/topics/15-langsmith-hands-on/
-
-    # Quick Links Section
-    - title: Quick Navigation
-      excerpt: Navigate to key sections of the site
-      theme: light
-      actions:
-        - text: <i class="fas fa-home"></i> Home
-          url: /
-        - text: <i class="fas fa-list"></i> All Courses
-          url: /courses/
-        - text: <i class="fas fa-tags"></i> Topics
-          url: /software-verification/introduction/
-        - text: <i class="fas fa-archive"></i> Archive
-          url: /archive.html
-      background_color: "#F5F5F5"
-
+show_title: false
+full_width: true
 ---
+
+<div class="hero" style="background: linear-gradient(135deg, #F80000 0%, #000000 100%); color: white; padding: 4rem 2rem; text-align: center; margin: -2rem -1rem 2rem -1rem;">
+  <h1 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">Spring 2026 Coursework</h1>
+  <p style="font-size: 1.25rem; max-width: 800px; margin: 0 auto 2rem auto;">
+    Graduate-level courses in software engineering and computer science at Texas Tech University
+  </p>
+  <div>
+    <a href="/courses/software-verification/" class="button button--primary button--rounded button--lg" style="background-color: white; color: #F80000; margin: 0.5rem;">CS-5374: Software V&V</a>
+    <a href="/courses/cryptography/" class="button button--primary button--rounded button--lg" style="background-color: transparent; border: 2px solid white; color: white; margin: 0.5rem;">CS-6343: Cryptography</a>
+  </div>
+</div>
+
+## Featured Courses
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 2rem 0;">
+
+<div style="border: 2px solid #F80000; border-radius: 12px; padding: 2rem; background: white;">
+  <h3 style="color: #F80000; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
+    <i class="fas fa-check-circle"></i> Software Verification & Validation
+  </h3>
+  <p style="color: #666; font-size: 0.9rem;"><strong>CS-5374</strong> · Spring 2026 · Prof. Akbar Siami Namin</p>
+  <p>Methods and techniques for verifying and validating software systems, including testing strategies, formal methods, and modern LLM evaluation tools.</p>
+  
+  <h4 style="color: #333; margin-bottom: 0.5rem;">Recent Lectures</h4>
+  <ul style="margin: 0 0 1rem 0; padding-left: 1.2rem;">
+    <li><a href="/software-verification/topics/01-introduction-vv/" style="color: #F80000;">Jan 17: OpenSource Tools for Testing AI/LLM/RL</a></li>
+    <li><a href="/software-verification/topics/01-introduction-vv/" style="color: #F80000;">Jan 15: Introduction to Software Testing</a></li>
+    <li><a href="/software-verification/topics/langsmith-setup/" style="color: #F80000;">Jan 14: LangSmith Setup</a></li>
+  </ul>
+  
+  <div style="margin-top: 1.5rem;">
+    <a href="/courses/software-verification/" class="button button--primary button--rounded" style="background-color: #F80000; color: white;">View Course →</a>
+  </div>
+</div>
+
+<div style="border: 2px solid #333; border-radius: 12px; padding: 2rem; background: white;">
+  <h3 style="color: #000; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
+    <i class="fas fa-lock"></i> Cryptography
+  </h3>
+  <p style="color: #666; font-size: 0.9rem;"><strong>CS-6343</strong> · Spring 2026</p>
+  <p>Cryptographic methods and security protocols for secure communication, data protection, and digital signatures.</p>
+  
+  <h4 style="color: #333; margin-bottom: 0.5rem;">Course Topics</h4>
+  <ul style="margin: 0 0 1rem 0; padding-left: 1.2rem;">
+    <li>Symmetric and asymmetric encryption</li>
+    <li>Hash functions and digital signatures</li>
+    <li>Key exchange protocols</li>
+  </ul>
+  
+  <div style="margin-top: 1.5rem;">
+    <a href="/courses/cryptography/" class="button button--primary button--rounded" style="background-color: #333; color: white;">View Course →</a>
+  </div>
+</div>
+
+</div>
+
+## Quick Access
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+
+<a href="https://texastech.instructure.com/" style="text-decoration: none;">
+  <div style="background: #000; color: white; padding: 1.5rem; border-radius: 8px; text-align: center;">
+    <i class="fas fa-chalkboard-teacher" style="font-size: 2rem; margin-bottom: 0.5rem;"></i>
+    <h4 style="color: white; margin: 0.5rem 0 0 0;">Canvas LMS</h4>
+    <p style="color: #ccc; font-size: 0.85rem; margin: 0.5rem 0 0 0;">Assignments & Grades</p>
+  </div>
+</a>
+
+<a href="https://engrmediacast.ttu.edu/Mediasite/Channel/96542-cs5374-d01-namin-spring-2026" style="text-decoration: none;">
+  <div style="background: #F80000; color: white; padding: 1.5rem; border-radius: 8px; text-align: center;">
+    <i class="fas fa-play-circle" style="font-size: 2rem; margin-bottom: 0.5rem;"></i>
+    <h4 style="color: white; margin: 0.5rem 0 0 0;">Mediasite</h4>
+    <p style="color: rgba(255,255,255,0.8); font-size: 0.85rem; margin: 0.5rem 0 0 0;">Lecture Videos</p>
+  </div>
+</a>
+
+<a href="/software-verification/topics/langsmith-setup/" style="text-decoration: none;">
+  <div style="background: #333; color: white; padding: 1.5rem; border-radius: 8px; text-align: center;">
+    <i class="fas fa-cogs" style="font-size: 2rem; margin-bottom: 0.5rem;"></i>
+    <h4 style="color: white; margin: 0.5rem 0 0 0;">LangSmith Setup</h4>
+    <p style="color: #ccc; font-size: 0.85rem; margin: 0.5rem 0 0 0;">Get Started</p>
+  </div>
+</a>
+
+<a href="https://www.depts.ttu.edu/hpcc/" style="text-decoration: none;">
+  <div style="background: #666; color: white; padding: 1.5rem; border-radius: 8px; text-align: center;">
+    <i class="fas fa-server" style="font-size: 2rem; margin-bottom: 0.5rem;"></i>
+    <h4 style="color: white; margin: 0.5rem 0 0 0;">HPCC</h4>
+    <p style="color: #ccc; font-size: 0.85rem; margin: 0.5rem 0 0 0;">Computing Resources</p>
+  </div>
+</a>
+
+</div>
+
+## Useful Resources
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+
+<div style="border-left: 4px solid #F80000; padding: 1rem 1.5rem; background: #f9f9f9;">
+  <h4 style="margin-top: 0; color: #000;">Software Testing</h4>
+  <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem;">
+    <li><a href="https://langsmith.io/" style="color: #F80000;">LangSmith</a> - LLM Testing Platform</li>
+    <li><a href="https://www.kaggle.com/" style="color: #F80000;">Kaggle</a> - Datasets & Notebooks</li>
+    <li><a href="https://pytest.org/" style="color: #F80000;">pytest</a> - Python Testing Framework</li>
+  </ul>
+</div>
+
+<div style="border-left: 4px solid #F80000; padding: 1rem 1.5rem; background: #f9f9f9;">
+  <h4 style="margin-top: 0; color: #000;">Formal Methods</h4>
+  <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem;">
+    <li><a href="https://lamport.azurewebsites.net/tla/tla.html" style="color: #F80000;">TLA+</a> - Formal Specification</li>
+    <li><a href="https://spinroot.com/" style="color: #F80000;">SPIN</a> - Model Checker</li>
+    <li><a href="https://www.cs.cmu.edu/~modelcheck/smv.html" style="color: #F80000;">SMV</a> - Symbolic Model Verifier</li>
+  </ul>
+</div>
+
+<div style="border-left: 4px solid #F80000; padding: 1rem 1.5rem; background: #f9f9f9;">
+  <h4 style="margin-top: 0; color: #000;">AI/ML Testing</h4>
+  <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem;">
+    <li><a href="https://mlflow.org/" style="color: #F80000;">MLflow</a> - ML Lifecycle</li>
+    <li><a href="https://wandb.ai/" style="color: #F80000;">Weights & Biases</a> - Experiment Tracking</li>
+    <li><a href="https://github.com/huggingface/evaluate" style="color: #F80000;">Evaluate</a> - HuggingFace Metrics</li>
+  </ul>
+</div>
+
+</div>

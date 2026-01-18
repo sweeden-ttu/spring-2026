@@ -1,0 +1,119 @@
+/* Custom styles for Oracle-inspired color scheme */
+
+// Oracle-inspired color variables
+$oracle-red: #F80000;
+$oracle-black: #000000;
+$oracle-white: #FFFFFF;
+$oracle-gray-dark: #333333;
+$oracle-gray-medium: #666666;
+
+// Header navigation - Use grays only for top header background
+.header {
+  background-color: $oracle-gray-dark !important;
+  border-bottom: 2px solid $oracle-red;
+  
+  .header__title,
+  .header__title a,
+  .header__brand a {
+    color: $oracle-white !important;
+  }
+  
+  .navigation {
+    a {
+      color: $oracle-white !important;
+      
+      &:hover {
+        color: $oracle-red !important;
+      }
+    }
+    
+    .navigation__item--active {
+      a {
+        color: $oracle-red !important;
+      }
+      
+      &::after {
+        border-bottom-color: $oracle-red !important;
+      }
+    }
+  }
+}
+
+// Page headers - Oracle colors only (red, black, white)
+.article__header {
+  background-color: $oracle-black;
+  color: $oracle-white;
+  
+  h1, h2, h3 {
+    color: $oracle-white;
+  }
+  
+  .article__title {
+    color: $oracle-white;
+  }
+}
+
+// Sidebar navigation - Oracle colors
+.page__sidebar {
+  background-color: $oracle-white;
+  border-right: 1px solid $oracle-gray-medium;
+  
+  .menu {
+    a {
+      color: $oracle-black;
+      
+      &:hover {
+        color: $oracle-red;
+      }
+      
+      &.active {
+        color: $oracle-red;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// Buttons - Oracle red
+.button--primary {
+  background-color: $oracle-red;
+  color: $oracle-white;
+  border-color: $oracle-red;
+  
+  &:hover {
+    background-color: $oracle-black;
+    border-color: $oracle-black;
+    color: $oracle-white;
+  }
+}
+
+.button--primary.button--outline {
+  background-color: transparent;
+  color: $oracle-red;
+  border-color: $oracle-red;
+  
+  &:hover {
+    background-color: $oracle-red;
+    color: $oracle-white;
+  }
+}
+
+// Instagram button styling (CSS-based, no mixins)
+.author-links {
+  .instagram-button {
+    color: $oracle-white;
+    background-color: #E4405F; // Instagram brand color
+    border-radius: 50%;
+    padding: 0.5rem;
+    
+    &:hover {
+      background-color: #C13584; // Darker Instagram color
+      color: $oracle-white;
+    }
+    
+    &:active {
+      background-color: #A52C6A; // Even darker for active state
+      color: $oracle-white;
+    }
+  }
+}

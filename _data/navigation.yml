@@ -1,19 +1,16 @@
 # Navigation configuration for jekyll-TeXt-theme
-# Header Navigation: Top menu for courses and main sections
-# Sidebar Navigation: Left sidebar for lecture notes, projects, assignments
+# Header Navigation: Top menu for courses
+# Sidebar Navigation: Left sidebar for syllabus, course outline, lecture notes, projects, assignments
 
-# Header Navigation (Top Menu - Courses and Main Sections)
+# Header Navigation (Top Menu - Courses)
 header:
   - title:      Home
     url:        /
-  - title:      Courses
-    url:        /courses/
-    key:        courses
-  - title:      CS-5374
-    url:        /software-verification/introduction/
+  - title:      CS-5374 Software V&V
+    url:        /courses/software-verification/
     key:        cs-5374
-  - title:      CS-6343
-    url:        /cryptography/README
+  - title:      CS-6343 Cryptography
+    url:        /courses/cryptography/
     key:        cs-6343
   - title:      Canvas
     url:        https://texastech.instructure.com/
@@ -22,10 +19,17 @@ header:
 
 # Sidebar Navigation for CS-5374: Software Verification & Validation
 # Used in pages with sidebar: { nav: cs-5374-sidebar }
+# Starts with Syllabus/Course Outline, then other course materials
 cs-5374-sidebar:
-  - title:      Course Overview
+  - title:      Syllabus & Course Outline
     children:
+      - title:  Course Syllabus
+        url:    https://texastech.instructure.com/courses/70713/assignments/syllabus
       - title:  Course Introduction
+        url:    /software-verification/introduction/
+      - title:  Course Schedule
+        url:    /software-verification/introduction/
+      - title:  Course Objectives
         url:    /software-verification/introduction/
       - title:  LangSmith Setup
         url:    /software-verification/topics/langsmith-setup/
