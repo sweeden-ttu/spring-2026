@@ -18,6 +18,29 @@ $oracle-gray-medium: #666666;
     color: $oracle-white !important;
   }
   
+  // Header brand text container for title + tagline
+  .header__brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    
+    a {
+      color: $oracle-white !important;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+  }
+  
+  // Tagline/subtitle styling
+  .header__tagline {
+    color: rgba($oracle-white, 0.75) !important;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 2px;
+    letter-spacing: 0.3px;
+  }
+  
   .navigation {
     a {
       color: $oracle-white !important;
@@ -116,4 +139,54 @@ $oracle-gray-medium: #666666;
       color: $oracle-white;
     }
   }
+}
+
+// H2 (##) Header Styling - Texas Tech Red accent
+h2,
+.article__content h2,
+.page__content h2 {
+  color: $oracle-black;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid $oracle-red;
+  position: relative;
+  
+  // Red accent bar on the left
+  &::before {
+    content: '';
+    position: absolute;
+    left: -1rem;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: $oracle-red;
+    border-radius: 2px;
+  }
+}
+
+// H3 (###) Header Styling - Subtle accent
+h3,
+.article__content h3,
+.page__content h3 {
+  color: $oracle-black;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid $oracle-red;
+}
+
+// H4 (####) Header Styling
+h4,
+.article__content h4,
+.page__content h4 {
+  color: $oracle-gray-dark;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
 }
