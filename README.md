@@ -52,7 +52,3 @@ All course information is stored in YAML files:
 f- `{course}/_data/course_info.yaml` - Course links and metadata
 - `{course}/_data/lectures.yaml` - Lecture schedule and file paths
 
-f
-## License
-
-This repository contains cf
