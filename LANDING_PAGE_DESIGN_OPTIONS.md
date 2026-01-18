@@ -189,24 +189,47 @@ The landing layout supports:
 
 ---
 
-## Color Guidelines (Texas Tech Brand)
+## Color Guidelines (Oracle-Inspired Scheme)
 
 ### Primary Colors:
-- **TTU Scarlet**: `#E90802`
-- **Black**: `#000000`
-- **White**: `#FFFFFF`
+- **Oracle Red**: `#F80000` - Primary accent color, hero backgrounds, CTAs
+- **Black**: `#000000` - Dark backgrounds, primary text on light sections
+- **White**: `#FFFFFF` - Primary text on dark, light section backgrounds
 
-### Grays (Accents):
-- Dark Gray: `#333333`
-- Medium Gray: `#666666`
-- Light Gray: `#CCCCCC`
-- Very Light Gray: `#F5F5F5`
+### Secondary Colors:
+- **Dark Gray**: `#333333` - Alternate section backgrounds
+- **Medium Gray**: `#666666` - Secondary text and subtle accents
+- **Light Gray**: `#CCCCCC` - Subtle borders and backgrounds
+- **Very Light Gray**: `#F5F5F5` - Light section backgrounds
+
+### Social Media Colors:
+- **Facebook**: `#1877F2` - Facebook button styling
+- **Instagram**: `#E4405F` (base), `#C13584` (hover), `#A52C6A` (active)
+- **LinkedIn**: `#0077B5` - LinkedIn button styling
+- **GitHub**: `#24292E` - GitHub button styling
 
 ### Usage:
-- Use Scarlet sparingly (CTAs, highlights, accents)
-- Use Black for primary text
-- Use White/Light Gray for backgrounds
-- Maintain good contrast for accessibility
+- Use Oracle Red (`#F80000`) for hero sections, primary CTAs, and key highlights
+- Use Black (`#000000`) for dark backgrounds and high-contrast sections
+- Use White (`#FFFFFF`) for text on dark backgrounds and light containers
+- Use Grays for subtle backgrounds, secondary text, and section alternation
+- Maintain WCAG AA contrast ratios (4.5:1 for normal text, 3:1 for large text)
+
+### Oracle Color Palette Application:
+```yaml
+# Hero Section - Oracle Red
+article_header:
+  theme: dark
+  background_color: "#F80000"
+
+# Dark Section - Black
+- theme: dark
+  background_color: "#000000"
+
+# Light Section - Light Gray
+- theme: light
+  background_color: "#F5F5F5"
+```
 
 ---
 

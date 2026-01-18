@@ -22,6 +22,82 @@ The `text_skin` setting controls the overall color scheme. Available options:
 - `chocolate` - Brown/warm theme
 - `orange` - Orange-tinted theme
 
+### Oracle-Inspired Color Scheme
+
+The site uses an **Oracle-inspired color palette** for visual design:
+
+#### Primary Colors
+- **Oracle Red**: `#F80000` - Primary accent color, hero backgrounds, CTAs
+- **Black**: `#000000` - Primary backgrounds, text on light sections
+- **White**: `#FFFFFF` - Primary text on dark backgrounds, light section backgrounds
+
+#### Secondary Colors
+- **Dark Gray**: `#333333` - Alternate section backgrounds
+- **Medium Gray**: `#666666` - Secondary text and accents
+- **Light Gray**: `#CCCCCC` - Subtle backgrounds
+- **Very Light Gray**: `#F5F5F5` - Light section backgrounds
+
+#### Social Media Colors
+- **Facebook Blue**: `#1877F2` - Facebook button
+- **Instagram Gradient**: `#E4405F` (primary), `#C13584` (hover), `#A52C6A` (active)
+- **LinkedIn Blue**: `#0077B5` - LinkedIn button
+- **GitHub Dark**: `#24292E` - GitHub button
+
+#### Usage Guidelines
+
+**Oracle Red (`#F80000`):**
+- Use for hero section backgrounds
+- Primary call-to-action buttons
+- Key highlights and accents
+- Navigation active states
+- Important alerts and notifications
+
+**Black (`#000000`):**
+- Dark section backgrounds
+- Primary text on light backgrounds
+- High-contrast elements
+- Footer backgrounds (optional)
+
+**White (`#FFFFFF`):**
+- Primary text on Oracle Red or Black backgrounds
+- Light section backgrounds
+- Cards and containers
+- Navigation text on dark backgrounds
+
+**Grays:**
+- Use for subtle backgrounds (`#F5F5F5`, `#CCCCCC`)
+- Secondary text and metadata (`#666666`)
+- Section alternation (`#333333`)
+
+#### Color Application Examples
+
+```yaml
+# Hero Section (index.html)
+article_header:
+  theme: dark
+  background_color: "#F80000"  # Oracle Red
+
+# Dark Section
+- theme: dark
+  background_color: "#000000"  # Black
+
+# Light Section
+- theme: light
+  background_color: "#F5F5F5"  # Very Light Gray
+```
+
+#### Custom CSS Variables
+
+Oracle colors are defined in `assets/css/custom.scss`:
+```scss
+$oracle-red: #F80000;
+$oracle-black: #000000;
+$oracle-white: #FFFFFF;
+$oracle-gray: #333333;
+```
+
+These can be referenced in custom stylesheets.
+
 ### Code Highlighting Themes
 
 The `highlight_theme` setting controls syntax highlighting for code blocks:

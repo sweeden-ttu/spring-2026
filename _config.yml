@@ -7,9 +7,22 @@ baseurl: ""
 # Theme Configuration - Using jekyll-text-theme (local gem)
 theme: jekyll-text-theme
 
-# Theme Customization
+# Theme Customization - Oracle-inspired color scheme
 text_skin: default          # Options: default, dark, forest, ocean, chocolate, orange
 highlight_theme: tomorrow   # Code highlighting theme (tomorrow, tomorrow-night, etc.)
+
+# Author and Social Links
+author:
+  type: person
+  name: Texas Tech CS
+  url:
+  avatar:
+  bio: Spring 2026 Coursework - Software Verification and Validation
+  email:
+  facebook: scotdwg81
+  linkedin: weedens
+  github: sweeden-ttu
+  instagram: scotdwg81
 
 # Localization
 lang: en
