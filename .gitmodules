@@ -1,0 +1,3 @@
+[submodule "modules/software-vv"]
+	path = modules/software-vv
+	url = https://github.com/sweeden-ttu/software-vv.git
