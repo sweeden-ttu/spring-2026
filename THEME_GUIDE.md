@@ -377,7 +377,7 @@ Similar to layouts, create `_includes/[component-name].html` to override theme i
 
 - **Theme Repository**: https://github.com/sweeden-ttu/jekyll-TeXt-theme
 - **Theme Documentation**: https://kitian616.github.io/jekyll-TeXt-theme/
-- **Example Posts**: https://github.com/sweeden-ttu/jekyll-TeXt-theme/tree/master/docs/_posts
+- **Example Posts**: https://github.com/sweeden-ttu/jekyll-TeXt-theme/trie/master/docs/_posts
 
 ## Quick Reference
 

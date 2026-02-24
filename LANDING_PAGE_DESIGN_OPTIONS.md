@@ -253,8 +253,8 @@ article_header:
 
 **Data & Algorithms:**
 - Binary code (0101 patterns)
-- Data structures (trees, graphs, arrays)
-- Flowcharts and decision trees
+- Data structures (tries, graphs, arrays)
+- Flowcharts and decision tries
 - Database schemas
 - Data flow arrows and pipelines
 

@@ -15,7 +15,7 @@ What if I told you there exists an encryption method that is mathematically prov
 
 ## Perfect Secrecy: The Mathematical Guarantee
 
-Using **Bayes' Theorem** and probability trees, we can prove that OTP provides what cryptographers call **perfect secrecy**. The key insight is that having access to a cipher text does not change the probability of guessing the original message.
+Using **Bayes' Theorem** and probability tries, we can prove that OTP provides what cryptographers call **perfect secrecy**. The key insight is that having access to a cipher text does not change the probability of guessing the original message.
 
 Mathematically, this is expressed as:
 
